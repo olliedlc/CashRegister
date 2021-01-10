@@ -1,0 +1,131 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (interpreter/interpreter.hpp:103), pid=18136, tid=19436
+#  guarantee(codelet_size > 0 && (size_t)codelet_size > 2*K) failed: not enough space for interpreter generation
+#
+# JRE version:  (8.0-b104) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.0-b46 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000001c2382de800):  JavaThread "Unknown thread" [_thread_in_vm, id=19436, stack(0x0000008174900000,0x0000008174a00000)]
+
+Stack: [0x0000008174900000,0x0000008174a00000]
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x000001c2382de800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=19436, stack(0x0000008174900000,0x0000008174a00000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+0x00007ff6f7ef0000 - 0x00007ff6f7f24000 	C:\TOOLS\java\jdk1.8.0_ea\bin\javaw.exe
+0x00007ffde4b60000 - 0x00007ffde4d41000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ffd9ae00000 - 0x00007ffd9ae70000 	C:\WINDOWS\System32\verifier.dll
+0x00007ffdb1b60000 - 0x00007ffdb1c53000 	C:\WINDOWS\SYSTEM32\PayloadRestrictions.dll
+0x00007ffde0f00000 - 0x00007ffde0ff8000 	C:\WINDOWS\System32\ucrtbase.dll
+0x00007ffde1100000 - 0x00007ffde1373000 	C:\WINDOWS\System32\kernelbase.dll
+0x00007ffde4640000 - 0x00007ffde46f1000 	C:\WINDOWS\System32\kernel32.dll
+0x00007ffde2620000 - 0x00007ffde26c1000 	C:\WINDOWS\System32\ADVAPI32.dll
+0x00007ffde23c0000 - 0x00007ffde245e000 	C:\WINDOWS\System32\msvcrt.dll
+0x00007ffde3bd0000 - 0x00007ffde3c2b000 	C:\WINDOWS\System32\sechost.dll
+0x00007ffde4760000 - 0x00007ffde4884000 	C:\WINDOWS\System32\RPCRT4.dll
+0x00007ffde2480000 - 0x00007ffde2611000 	C:\WINDOWS\System32\USER32.dll
+0x00007ffde1000000 - 0x00007ffde1020000 	C:\WINDOWS\System32\win32u.dll
+0x00007ffde2380000 - 0x00007ffde23a8000 	C:\WINDOWS\System32\GDI32.dll
+0x00007ffde1420000 - 0x00007ffde15b3000 	C:\WINDOWS\System32\gdi32full.dll
+0x00007ffde1380000 - 0x00007ffde141f000 	C:\WINDOWS\System32\msvcp_win.dll
+0x00007ffdcafe0000 - 0x00007ffdcb249000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17134.1902_none_d3fc12d37c93a894\COMCTL32.dll
+0x00007ffde2050000 - 0x00007ffde2371000 	C:\WINDOWS\System32\combase.dll
+0x00007ffde1020000 - 0x00007ffde1099000 	C:\WINDOWS\System32\bcryptPrimitives.dll
+0x00007ffde4a60000 - 0x00007ffde4a8d000 	C:\WINDOWS\System32\IMM32.DLL
+0x00007ffd9b660000 - 0x00007ffd9bd72000 	C:\Program Files\McAfee\DLP\Agent\fcagpph64.dll
+0x00007ffde2780000 - 0x00007ffde3bc5000 	C:\WINDOWS\System32\SHELL32.dll
+0x00007ffde1860000 - 0x00007ffde18a9000 	C:\WINDOWS\System32\cfgmgr32.dll
+0x00007ffde26d0000 - 0x00007ffde2779000 	C:\WINDOWS\System32\shcore.dll
+0x00007ffde18b0000 - 0x00007ffde1fc5000 	C:\WINDOWS\System32\windows.storage.dll
+0x00007ffde4700000 - 0x00007ffde4751000 	C:\WINDOWS\System32\shlwapi.dll
+0x00007ffde0ee0000 - 0x00007ffde0ef1000 	C:\WINDOWS\System32\kernel.appcore.dll
+0x00007ffde0ec0000 - 0x00007ffde0edf000 	C:\WINDOWS\System32\profapi.dll
+0x00007ffde0e70000 - 0x00007ffde0ebc000 	C:\WINDOWS\System32\powrprof.dll
+0x00007ffde0e60000 - 0x00007ffde0e6a000 	C:\WINDOWS\System32\FLTLIB.DLL
+0x00007ffde44e0000 - 0x00007ffde4632000 	C:\WINDOWS\System32\ole32.dll
+0x00007ffde3c30000 - 0x00007ffde3cf2000 	C:\WINDOWS\System32\OLEAUT32.dll
+0x00007ffdd6fd0000 - 0x00007ffdd7055000 	C:\WINDOWS\SYSTEM32\WINSPOOL.DRV
+0x00007ffddfcb0000 - 0x00007ffddfcba000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x00007ffdde8d0000 - 0x00007ffddea85000 	C:\WINDOWS\SYSTEM32\PROPSYS.dll
+0x00007ffde02a0000 - 0x00007ffde02d8000 	C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL
+0x00007ffde0870000 - 0x00007ffde0895000 	C:\WINDOWS\SYSTEM32\bcrypt.dll
+0x00007ffde0d40000 - 0x00007ffde0d70000 	C:\WINDOWS\SYSTEM32\SspiCli.dll
+0x00007ffddf9b0000 - 0x00007ffddf9e1000 	C:\WINDOWS\SYSTEM32\ntmarta.dll
+0x000001c236990000 - 0x000001c2369a2000 	C:\WINDOWS\System32\umppc11604.dll
+0x00007ffde0c10000 - 0x00007ffde0d34000 	C:\Program Files\Avecto\Privilege Guard Client\PGHook.dll
+0x00007ffde0850000 - 0x00007ffde0867000 	C:\WINDOWS\SYSTEM32\CRYPTSP.dll
+0x00007ffde07e0000 - 0x00007ffde0813000 	C:\WINDOWS\system32\rsaenh.dll
+0x00007ffde0770000 - 0x00007ffde077b000 	C:\WINDOWS\SYSTEM32\CRYPTBASE.dll
+0x000000006f150000 - 0x000000006f221000 	C:\TOOLS\java\jdk1.8.0_ea\jre\bin\msvcr100.dll
+0x000000006c590000 - 0x000000006cd9a000 	C:\TOOLS\java\jdk1.8.0_ea\jre\bin\server\jvm.dll
+0x00007ffde23b0000 - 0x00007ffde23b8000 	C:\WINDOWS\System32\PSAPI.DLL
+0x00007ffdca680000 - 0x00007ffdca689000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007ffde4900000 - 0x00007ffde496c000 	C:\WINDOWS\System32\WS2_32.dll
+0x00007ffdd9bc0000 - 0x00007ffdd9be3000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ffdd9b90000 - 0x00007ffdd9bba000 	C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+0x000000006f140000 - 0x000000006f14f000 	C:\TOOLS\java\jdk1.8.0_ea\jre\bin\verify.dll
+0x000000006f110000 - 0x000000006f138000 	C:\TOOLS\java\jdk1.8.0_ea\jre\bin\java.dll
+0x000000006f0d0000 - 0x000000006f105000 	C:\TOOLS\java\jdk1.8.0_ea\jre\bin\jdwp.dll
+0x000000006f0c0000 - 0x000000006f0c8000 	C:\TOOLS\java\jdk1.8.0_ea\jre\bin\npt.dll
+0x000000006f0a0000 - 0x000000006f0b6000 	C:\TOOLS\java\jdk1.8.0_ea\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:51237 -Dfile.encoding=Cp1252 
+java_command: com.rocketmiles.register.cash.main.CashRegister
+java_class_path (initial): C:\Users\odelacue\OneDrive - Macquarie Group\Personal Folders\workspace\cash-register\bin
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\TOOLS\java\jdk1.8.0_ea\
+PATH=C:\TOOLS\java\jdk1.8.0_ea\jre\bin;C:\Progra~1\SAP\SDK_16.0-ebf26804\DataAccess64\ADONET\dll;C:\Progra~1\SAP\SDK_16.0-ebf26804\DataAccess\ADONET\dll;C:\Progra~1\SAP\SDK_16.0-ebf26804\DataAccess64\ODBC\dll;C:\Progra~1\SAP\SDK_16.0-ebf26804\DataAccess\ODBC\dll;C:\Progra~1\SAP\SDK_16.0-ebf26804\OCS-16_0\lib3p64;C:\Progra~1\SAP\SDK_16.0-ebf26804\OCS-16_0\lib3p;C:\Progra~1\SAP\SDK_16.0-ebf26804\OCS-16_0\dll;C:\Progra~1\SAP\SDK_16.0-ebf26804\OCS-16_0\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files (x86)\PuTTY\;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\Webex\Webex\Applications;C:\Program Files (x86)\Webex\Plugins;C:\Users\odelacue\AppData\Local\Microsoft\WindowsApps;
+USERNAME=odelacue
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 8.1 , 64 bit Build 9600 
+
+CPU:total 8 (4 cores per cpu, 2 threads per core) family 6 model 142 stepping 10, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, ht, tsc, tscinvbit
+
+Memory: 4k page, physical 16629148k(9600328k free), swap 17677724k(9551116k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.0-b46) for windows-amd64 JRE (1.8.0-ea-b104), built on Aug 22 2013 09:25:57 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Sun Jan 10 00:02:40 2021
+elapsed time: 0 seconds
+
