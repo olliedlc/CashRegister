@@ -1,5 +1,5 @@
 # Related Issue/s
-- <issue #>
+- <issue number>
 
 # Proposed changes
 - <change description 1>
